@@ -6,11 +6,16 @@ paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
 
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:700%7CRoboto:100,300,700);
+body {
+    font-family: "Roboto";
+    line-height: 3.5em;
+    font-weight: 300;
+  }
 
 
     #container-a {
         display: flex;
-      background-color: lightgrey;
       width: 768px;
       margin: 0;
       padding: 0;
@@ -76,6 +81,11 @@ nav grey: #5b5e6d;
         padding-right: 1em;
     }
 
+    header img{
+        display: flex;
+        order: 2;
+    }
+
     header{
         display: flex;
         flex-direction: column;
@@ -94,4 +104,56 @@ nav grey: #5b5e6d;
       flex-direction: row;
       background-color: darkgray;
       justify-content: center;
+    }
+
+
+    main #good-company{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: center;
+        margin:4em;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 3em;
+    }
+
+    #good-company p{
+        font-size: 2em;
+
+    }
+
+
+    main #good-company img{
+        display: flex;
+        height: 10vh;
+    }
+
+    .button-success{
+        display: flex;
+        background: blue;
+        color:white;
+        border-radius: 4px;
+        text-align: center;
+    }
+
+    #container-mail{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 1em;
+    }
+
+    .border{
+        border-bottom: inset;
+        padding: 1.5em 7.5em;
+    }
+
+    button {
+        border-radius: .8em;
+        height: 8em;
+        font-size: 1.5em;
+        font-weight: bold;
     }
